@@ -92,7 +92,7 @@ export default function Home() {
             variant="subtitle1"
             color="initial"
           >
-          If you want to make intelligent, get books from here.
+          If you want to make intelligent, get books from here...
             <br />
             <Button variant="outlined" color="secondary">
               Contact us
@@ -105,7 +105,7 @@ export default function Home() {
 <div className='content container'>
             <div className='  d-flex'>
               <div className='px-5'>
-                 <h1 className='font_heading'>Keep the story going..</h1>
+                 <h1 className='font_heading'>Keep the story going...</h1>
               <p className='w-75 '>Don't let the story end just yet. Continue reading last book and immerse yourself in the world of Books</p>
               <button className='reading' >
                Last Reading &nbsp;
