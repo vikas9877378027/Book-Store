@@ -1,0 +1,12 @@
+.Footer
+{
+    position: relative;
+    top: 20rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #103c68;
+    color: white;   
+}
+
+/* ....................Admin Login Page............................... */

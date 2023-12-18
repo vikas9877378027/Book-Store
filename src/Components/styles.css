@@ -1,0 +1,107 @@
+
+.cards-container {
+    display: flex;
+    border-radius: 6px;
+    /* color: #333; */
+    /* background: #eee; */
+    /* padding: 1rem; */
+    /* box-shadow: 0 0 1rem #000 inset; */
+    overflow-x: auto;
+    position: relative;
+}
+.cards-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    flex: 1 0 250px;
+    box-shadow: 0 1px 1rem -4px #000;
+    background: #fff;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+.card img {
+    width: 250px;
+    height: 350px;
+    -o-object-fit: center;
+    object-fit: center;
+}
+.card:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+}
+
+.card-content {
+    padding: 1rem;
+}
+@media screen and (max-width: 625px) {
+    .container {
+        width: 100%;
+    }
+
+    .cards-container {
+        padding: 0.5rem;
+    }
+
+    .card {
+        margin: 0.5rem;
+    }
+}
+/* testmonials for home.................................................. */
+#tcb-testimonial-carousel {
+    margin-top: 30px;
+}
+#tcb-testimonial-carousel a {
+    color: #b20000;
+}
+#tcb-testimonial-carousel .text-brand {
+    color: #b20000;
+}
+#tcb-testimonial-carousel .carousel-indicators .active {
+    background: #b20000;
+}
+#tcb-testimonial-carousel .no-margin {
+    margin: 0;
+}
+#tcb-testimonial-carousel .carousel-indicators li {
+    border: 1px solid #ccc;
+}
+#tcb-testimonial-carousel .carousel-control {
+    color: #b20000;
+    width: 5%;
+    margin-top: 200px;
+}
+#tcb-testimonial-carousel .carousel-control:focus,
+#tcb-testimonial-carousel .carousel-control:hover {
+    color: #b20000;
+}
+#tcb-testimonial-carousel .carousel-control.left,
+#tcb-testimonial-carousel .carousel-control.right {
+    background-image: none;
+}
+#tcb-testimonial-carousel .item {
+    padding: 15px 40px;
+    background: #f8f8f8;
+}
+#tcb-testimonial-carousel .media-object {
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    #tcb-testimonial-carousel .media-object {
+        margin-bottom: 15px;
+    }
+}
+.content {
+    background-color: #ecebeba9;
+    padding: 5rem;
+    box-shadow: 0 2px 1rem -4px #000;
+    /* border-radius: 6px; */
+}
+.card_width
+{
+    width: 80%;
+    
+}

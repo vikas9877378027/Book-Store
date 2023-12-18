@@ -1,0 +1,81 @@
+.img_cell
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.background
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem 2rem 1rem 2rem ;
+    /* margin-top: 10rem; */
+    /* position: absolute; */
+    /* border-radius: 2rem; */
+    background: rgb(134,134,134);
+    background: linear-gradient(0deg, rgba(134,134,134,0.20772058823529416) 57%, rgba(255,255,255,1) 47%);
+    /* top: 15rem; */
+}
+.Book_img
+{
+    box-shadow: 0px 10px 15px 0px #111;
+}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marcellus+SC&family=Orbitron&display=swap');
+.Book_title
+{
+ position: relative;
+ top: 3rem;
+ margin-top: 2rem;
+ left: 4rem;
+ width: 500px;
+ font-size: 2rem;
+ line-height: 38px;
+ font-family: 'Marcellus SC', serif;
+}
+._author
+{
+    font-style: italic;
+    position: relative;
+    top: 9rem;
+    left: 4rem;
+    font-weight: bold;
+    color: #111;
+    font-size: 15px;
+    /* line-height: 38px; */
+    /* font-family: 'Marcellus SC', serif; */
+}
+.description
+{
+  position: relative;
+  width: 800px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  color: #111;
+  /* background-color: white; */
+  margin-top: 7rem;
+  /* box-shadow: 2px 2px 4px 2px #999; */
+  padding: 2rem;
+  text-align: justify;
+}
+.reading_1
+{
+  position: relative;
+  top: 7rem;
+  left: 25rem;
+  padding: 2px 0.9rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #999;
+  color: white;
+}
+.reading_1:hover{
+  padding: 2px 0.9rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #666565;
+  box-shadow: 1px 1px 5px 5px #6565;
+  color: white;
+}

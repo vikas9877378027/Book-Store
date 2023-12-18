@@ -1,0 +1,20 @@
+.cart
+{
+    border-radius: 2rem ;
+    position: absolute;
+    padding: 1rem 1.3rem;
+    background-color: white;
+    box-shadow: 0px 4px 4px #999;
+    top: -0.06rem;
+    right: 1rem;
+    border: none;
+}
+.label{
+    position: absolute;
+    bottom:7rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 7px 20px;
+    left: -.5rem;
+}

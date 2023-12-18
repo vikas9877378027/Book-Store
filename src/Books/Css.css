@@ -1,0 +1,144 @@
+.content_1 {
+
+    background-color: #ecebeba9;
+    padding: 2rem;
+}
+.Book_card
+{
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.Book_card:hover
+{
+    box-shadow: 0 5px 1rem -4px #000;
+    transform: translateY(-3px);
+}
+.buy
+{
+    position: relative;
+    /* float: right; */
+    left: 37rem;
+    top: 4rem;
+    border: none;
+    background-color: gray;
+    color: white;
+    padding: 0 20px 0 ;
+    border-radius: 10px;
+}
+.buy:hover
+{
+    box-shadow: 0 5px 1rem -4px #000;
+    transform: translateY(-1px);
+}
+.loader
+{
+    position: relative;
+   left: 30rem;
+   top: 10rem;
+   right: auto;
+}
+.book_card
+{
+    background-color: rgba(0, 128, 0, 0.116);
+    display: grid;
+    height: 250px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    /* transition:             height 500ms ease;
+        -moz-transition:    height 500ms ease;
+        -ms-transition:     height 500ms ease;
+        -o-transition:      height 500ms ease;
+        -webkit-transition: height 500ms ease; */
+
+}
+/* for book card */
+.bookscard
+{
+    background-color: #dfdf;
+    display: flex;
+    margin: 1rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 5px 2px #999;
+}
+.img_shadow
+{
+    box-shadow: 0px 2px 5px 2px #555;
+}
+.card_img
+{
+        flex: 1 0 1px;
+        width: 250px;
+        box-shadow: 0 1px 1rem -4px #000;
+        background: #fff;
+        margin: 1rem 1rem 0rem 1rem;
+        overflow: hidden;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 250ms ease-in-out;
+    
+}
+.card_img img {
+    width: 250px;
+    height: 350px;
+    -o-object-fit: center;
+    object-fit: center;
+}
+.card_img :hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+}
+.card-content_book {
+    padding: .5rem 0rem 0.5rem .8rem;
+}
+.books_card_screen
+{
+    width: 90%;
+    justify-content: space-around;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards-container_Books {
+    /* display: flex; */
+    border-radius: 6px;
+    width: 300px;
+    /* color: #333; */
+    /* background: #eee; */
+    /* padding: 1rem; */
+    /* box-shadow: 0 0 1rem #000 inset; */
+    overflow-x: auto;
+    position: relative;
+}
+.slogans
+{
+    margin-left: 1rem;
+    color: #999;
+    font-style: italic;
+    margin-top: 1rem;
+}
+.searchbar
+{
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #99999923;
+    border-radius: 1.5rem;
+}
+.serach_icn
+{
+    position: relative;
+    right: 3rem;
+    color: rgb(197, 19, 49);
+    font-weight: bold;
+}
+.playbtn
+{
+    border: none;
+}

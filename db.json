@@ -1,0 +1,822 @@
+{
+  "users": [
+    {
+      "id": 11,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://reqres.in/img/faces/11-image.jpg"
+    },
+    {
+      "id": 12,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://reqres.in/img/faces/12-image.jpg"
+    },
+    {
+      "name": "nitish",
+      "email": "@mail",
+      "id": 15
+    },
+    {
+      "name": "djc",
+      "email": "bhh",
+      "id": 16
+    },
+    {
+      "name": "",
+      "email": "",
+      "id": 17
+    },
+    {
+      "username": "Nitish",
+      "email": "nitish@gmail.com",
+      "password": "123456",
+      "contact": "9805855248",
+      "id": 18
+    },
+    {
+      "email": "nitish@gmail.com",
+      "password": "123456",
+      "id": 19
+    }
+  ],
+  "Books": [
+    {
+      "id": 985685,
+      "title": "Fundamentals of Computer and Information Technology (A gateway to computer Literacy)",
+      "description": "Fundamentals of Computer and Information Technology provide an essential introduction to the basic concepts, components, and principles of computers and IT, enabling computer literacy and effective navigation of the digital world Hardware, software, operating systems, networks, data structures, algorithms, programming languages, databases, security, privacy, information systems, and the software development life cycle are fundamentals of computer and information technology.",
+      "price": 506,
+      "author": "R.S. Salaria",
+      "image": "https://m.media-amazon.com/images/I/41mthNk0MZL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "text": "Fundamentals of Computer and Information Technology (A gateway to computer Literacy)"
+    },
+    {
+      "id": 2,
+      "title": "C Programming for beginners",
+      "description": "C Programming for beginners offers an entry-level introduction to the C programming language, covering basic syntax, data types, control structures, functions, and introductory concepts of programming logic C programming is a fundamental language for beginners. It provides a solid foundation in programming concepts, syntax, and control structures. Topics include variables, data types, loops, conditional statements, functions, and arrays..",
+      "price": 506,
+      "author": "Dr Madhav Bokare",
+      "image": "https://d34a0mln2492j4.cloudfront.net/unsigned/resize:fit:800:1060:0/gravity:sm/plain/https%3A%2F%2Fimage-hub.reproindialtd.com%2F9789390720071.jpg",
+      "text": "c programming language (A gateway to computer Literacy)"
+    },
+    {
+      "id": 3,
+      "title": "Object-Oriented Programming with C++",
+      "description": "Object-Oriented Programming with C++ focuses on teaching the concepts and techniques of object-oriented programming using the C++ programming language, including classes, objects, inheritance, polymorphism, and encapsulation Object-oriented programming (OOP) with C++ extends the C language with features like classes, objects, inheritance, and polymorphism. It allows for modular and organized code, emphasizing reusability and encapsulation. Topics include classes, objects, inheritance, polymorphism, and object-oriented design principles.",
+      "price": 506,
+      "author": " E Balagurusamy ",
+      "image": "https://m.media-amazon.com/images/I/41sbWdpTgRL._SX371_BO1,204,203,200_.jpg",
+      "text": "Fundamentals of Computer and Information Technology (A gateway to computer Literacy)"
+    },
+    {
+      "id": 4,
+      "title": "The Essential Guide to CSS and HTML Web Design",
+      "description": "The Essential Guide to CSS and HTML Web Design provides a comprehensive introduction to building websites using HTML markup and CSS styling, covering layout, typography, responsive design, and interactive elements CSS and HTML are essential for web design. HTML structures web content, while CSS enhances its appearance and layout. Topics include HTML tags, elements, attributes, CSS selectors, properties, and styling techniques to create visually appealing and responsive web pages.",
+      "price": 506,
+      "author": "Craig Grannel",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/The-Essential-Guide-to-CSS-and-HTML-Web-Design1.jpg"
+    },
+    {
+      "id": 6,
+      "title": " INTRODUCING HTML5",
+      "description": " Introducing HTML5 is a beginner-friendly guide that introduces the features and capabilities of HTML5, including new tags, multimedia support, canvas for graphics, offline storage, and advanced form elements for modern web development HTML5 is the latest version of the Hypertext Markup Language. It introduces new elements, attributes, and APIs, allowing for more dynamic and interactive web content. Features include multimedia support, canvas for graphics, geolocation, local storage, and improved semantic markup.",
+      "price": 506,
+      "author": " Bruce Lawson and Remy",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/ShowCover.jpg"
+    },
+    {
+      "id": 7,
+      "title": " CSS3 FOR WEB DESIGNERS",
+      "description": " CSS3 for Web Designers is a focused guide that explores the advanced features and techniques of CSS3, covering topics such as responsive design, transitions, animations, typography, and creating visually appealing web layouts Web designers are professionals who create visually appealing and user-friendly websites. They combine artistic design skills with technical knowledge of HTML, CSS, and other web technologies to design layouts, select color schemes, create graphics, and ensure a seamless user experience.",
+      "price": 506,
+      "author": "Dan Cederholm",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/3-css3-for-web-designers-250px.jpg"
+    },
+    {
+      "id": 8,
+      "title": " HTML5 & CSS3 FOR THE REAL WORLD",
+      "description": "HTML5 & CSS3 for the Real World is a practical guide that teaches the application of HTML5 and CSS3 in real-world scenarios, covering responsive design, semantic markup, multimedia integration, CSS frameworks, and modern web design techniques HTML5 and CSS3 are the latest versions of the Hypertext Markup Language and Cascading Style Sheets, respectively. They offer enhanced features and capabilities for creating modern and responsive websites, including multimedia support, advanced layout options, animation, and improved styling techniques. ",
+      "price": 506,
+      "author": "Estelle Weyl, Louis Lazaris and Alexis Goldstein",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/cover.png"
+    },
+    {
+      "id": 9,
+      "title": "RESPONSIVE WEB DESIGN WITH HTML5 AND CSS3",
+      "description": "Responsive Web Design with HTML5 and CSS3 is a comprehensive guide that teaches how to create mobile-friendly websites using HTML5 and CSS3, covering media queries, flexible layouts, responsive images, and navigation techniques for optimal user experience across different devices Responsive web design is an approach to designing websites that ensures optimal viewing and usability across various devices and screen sizes. It involves using fluid layouts, flexible images, and media queries to adapt the website's layout and content dynamically to different screen resolutions.",
+      "price": 506,
+      "author": "Ben Frain",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/500x500_2790918_file.jpg"
+    },
+    {
+      "id": 10,
+      "title": " THE BOOK OF CSS3: A DEVELOPER’S GUIDE TO THE FUTURE OF WEB DESIGN",
+      "description": "The Book of CSS3: A Developer's Guide to the Future of Web Design is a comprehensive guide that explores the advanced features and possibilities of CSS3, including transitions, animations, gradients, transforms, and responsive design techniques for modern web development The future of web design is likely to be shaped by emerging technologies such as artificial intelligence, virtual reality, and voice user interfaces. Trends may include more immersive experiences, personalized content, minimalistic designs, microinteractions, and increased focus on mobile and cross-platform compatibility. ",
+      "price": 506,
+      "author": "Peter Gasston",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/c3cc35e755d5ee16bff743d78c3fc92c.jpg"
+    },
+    {
+      "id": 11,
+      "title": " LEARNING WEB DESIGN: A BEGINNER’S GUIDE TO HTML, CSS, JAVASCRIPT, AND WEB GRAPHICS",
+      "description": " Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics is a beginner-friendly resource that covers the fundamentals of web design, including HTML, CSS, JavaScript, and creating web graphics, providing a solid foundation for building websites Learning web design involves understanding HTML, CSS, JavaScript, and other web technologies. It includes learning front-end development, responsive design principles, user experience (UX) design, accessibility considerations, and staying updated with emerging trends and tools in the field.",
+      "price": 506,
+      "author": "Jennifer Niederst Robbins",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/ea9df8b6f321a47b1e64184e0fc687d6.jpg"
+    },
+    {
+      "id": 12,
+      "title": "  LEARNING JQUERY",
+      "description": "  Learning jQuery is a comprehensive guide that teaches the fundamentals of jQuery, a popular JavaScript library. It covers DOM manipulation, event handling, animations, AJAX, and other essential techniques for developing interactive and dynamic web applications Learning jQuery involves gaining knowledge of a popular JavaScript library used for simplifying and enhancing web development tasks. It focuses on manipulating HTML elements, handling events, making AJAX requests, creating animations, and adding interactivity to websites. jQuery streamlines code and improves cross-browser compatibility.",
+      "price": 506,
+      "author": "Jonathan Chaffer, Karl Swedberg",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/jq.jpg"
+    },
+    {
+      "id": 13,
+      "title": " HEAD FIRST HTML AND CSS ",
+      "description": " Head First HTML and CSS is an interactive and visually engaging book that teaches HTML and CSS from a beginner's perspective. It covers the basics of web development, including HTML structure, CSS styling, layout, and responsive design is a beginner-friendly book that teaches HTML and CSS through a visually engaging and interactive approach. It covers essential concepts, tags, selectors, styling techniques, responsive design, and best practices, enabling readers to create well-designed and functional websites.",
+      "price": 506,
+      "author": "Elisabeth Robson",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/HTML-HEAD-FIRST1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Eric A. Meyer ",
+      "description": "Eric A. Meyer is a well-known author and expert in the field of web development and CSS. He has written several influential books on CSS, including CSS: The Definitive Guide and Eric Meyer on CSS Eric A. Meyer is a prominent figure in the field of web design and development. He is an author, consultant, and recognized expert in CSS. With extensive experience and expertise in the subject, Meyer has written several influential books on CSS and is known for his contributions to web standards and best practices in the industry. His work has greatly influenced the way CSS is understood and implemented, making him a highly respected authority in the web design community. ",
+      "price": 506,
+      "author": " CSS POCKET REFERENCE",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/9781449399030_p0_v1_s260x420.jpg"
+    },
+    {
+      "id": 15,
+      "title": "  JQUERY: NOVICE TO NINJA",
+      "description": " jQuery: Novice to Ninja is a comprehensive book that takes beginners through the journey of learning jQuery, covering core concepts, DOM manipulation, event handling, AJAX, animations, and advanced techniques to become proficient with jQuery development jQuery is a popular JavaScript library that simplifies web development tasks. It provides a concise syntax for manipulating HTML elements, handling events, making AJAX requests, creating animations, and adding interactivity. jQuery enhances productivity and cross-browser compatibility, making it widely used in web projects.",
+      "price": 506,
+      "author": "Earle Castledine",
+      "image": "https://www.developerdrive.com/wp-content/uploads/2013/02/jquery-novice-to-ninja_cover_0511.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Image Processing In Java ",
+      "description": "Image Processing in Java is a guide that explores various techniques and algorithms for manipulating and enhancing digital images using the Java programming language. It covers topics such as image filtering, transformation, segmentation, feature extraction, and image analysis Image processing in Java involves manipulating and enhancing digital images using Java programming language and libraries such as Java Advanced Imaging (JAI) and JavaFX. It includes tasks like resizing, cropping, filtering, image recognition, and applying various effects to images programmatically. ",
+      "price": 506,
+      "author": " Douglas A. Lyon",
+      "image": "https://m.media-amazon.com/images/I/41fSgGdWf4L.SX316_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Java: The Complete Reference Seventh Edition Books ",
+      "description": "Java: The Complete Reference, Seventh Edition is a comprehensive book that serves as a reference guide for Java programming, covering core concepts, syntax, libraries, APIs, and advanced topics for Java developers Java is a versatile, object-oriented programming language known for its platform independence. It offers a robust and secure environment for developing a wide range of applications, from desktop and web applications to mobile and enterprise solutions. Java is widely used for its simplicity, scalability, and extensive library support. ",
+      "price": 506,
+      "author": "Herbert Schildt",
+      "image": "https://5.imimg.com/data5/UH/FC/MY-28838716/java-3a-the-complete-reference-seventh-edition-500x500.png"
+    },
+    {
+      "id": 18,
+      "title": "Java The Complete Reference ",
+      "description": "Java The Complete Reference is a comprehensive book that serves as a comprehensive guide to the Java programming language, covering fundamental concepts, core libraries, advanced features, and best practices for Java development a comprehensive book that serves as a thorough guide to Java programming. It covers core Java concepts, syntax, libraries, and advanced topics such as multithreading, networking, and JavaFX. The book is a valuable resource for both beginner and experienced Java developers. ",
+      "price": 506,
+      "author": "Herbert Schildt",
+      "image": "https://static.javatpoint.com/core/images/top-10-java-books2.png"
+    },
+    {
+      "id": 19,
+      "title": "Core Java An Integrated Approach (Black Book) ",
+      "description": "Core Java An Integrated Approach (Black Book) is a comprehensive book that provides a comprehensive approach to learning Core Java programming, covering topics such as syntax, object-oriented programming, data structures, and advanced Java concepts An Integrated Approach is a comprehensive book that provides a holistic approach to learning Java. It covers core Java concepts, object-oriented programming, data structures, algorithms, and advanced topics like multithreading, networking, and JavaFX. The book includes numerous examples, exercises, and real-world applications to reinforce learning. ",
+      "price": 506,
+      "author": "Dr. R. Nageswara Rao",
+      "image": "https://static.javatpoint.com/core/images/top-10-java-books3.png"
+    },
+    {
+      "id": 20,
+      "title": " Head First Java",
+      "description": " Head First Java is a beginner-friendly book that takes a unique approach to teaching Java programming. It covers core concepts, object-oriented programming, Java libraries, and practical examples to reinforce learning It uses a visually rich and interactive style to explain Java concepts, including object-oriented programming, inheritance, and polymorphism. The book features engaging exercises, puzzles, and real-world examples to enhance learning.",
+      "price": 506,
+      "author": "Kathy Sierra, Bert Bates",
+      "image": "https://static.javatpoint.com/core/images/top-10-java-books4.png"
+    },
+    {
+      "id": 21,
+      "title": "Java The Complete Core Reference , 11th Edition",
+      "description": "Java The Complete Core Reference , 11th Edition The latest edition known at that time was the 10th edition. Please verify the information regarding the 11th edition with updated sources.  It covers the latest features and enhancements introduced in Java 11, including modules, lambdas, streams, and more. The book provides comprehensive coverage of Java fundamentals and advanced topics for developers of all levels.",
+      "price": 506,
+      "author": "Mr Kotiyana",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41iGBjmHVrL.jpg"
+    },
+    {
+      "id": 22,
+      "title": " Java for Beginners 2018 ",
+      "description": " Java for Beginners 2018 is a beginner-friendly book that provides an introduction to Java programming, covering the basics of syntax, object-oriented programming, control structures, and common Java concepts for beginners ava programming from the ground up. It covers essential Java concepts, syntax, and programming techniques, guiding readers through hands-on examples and exercises to build a solid foundation in Java development.",
+      "price": 506,
+      "author": "Mr Kotiyana",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51mEa-0nphL.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Java Master The Art Of Programming",
+      "description": "Java Master The Art Of Programming is a comprehensive book that covers advanced topics and techniques in Java programming, helping developers enhance their skills and proficiency in writing efficient and robust Java code. The Art of Programming is a book that explores the creative and strategic aspects of programming. It delves into problem-solving techniques, algorithm design, code optimization, and best practices. It emphasizes the artistry and craftsmanship of programming, guiding readers to become more proficient and innovative developers.",
+      "price": 506,
+      "author": "Mr Kotiyana ",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51%2BgwRCd9PL.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Core Java Volume I--Fundamentals ",
+      "description": "Core Java Volume I--Fundamentals is a widely recognized book that provides a comprehensive introduction to the core concepts and fundamentals of Java programming, covering topics such as syntax, data types, control structures, and object-oriented programming. It provides an in-depth exploration of Java syntax, object-oriented programming, exception handling, generics, and more. The book is an essential resource for mastering fundamental Java programming skills.",
+      "price": 506,
+      "author": " Cay S. Horstmann(",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/419NfKc-OLL.jpg"
+    },
+    {
+      "id": 25,
+      "title": " Java Platform Enterprise Edition Java EE Complete Self-Assessment Guide",
+      "description": " Java Platform Enterprise Edition Java EE Complete Self-Assessment Guide  is a comprehensive resource that helps assess and evaluate knowledge and understanding of Java EE concepts, frameworks, technologies, and best practices for enterprise application development The Java Platform is a software platform that provides a runtime environment and libraries for developing and running Java applications. It consists of the Java Virtual Machine (JVM), the Java Development Kit (JDK), and various APIs and tools for Java application development.",
+      "price": 506,
+      "author": "Gerardus Blokdyk",
+      "image": "https://m.media-amazon.com/images/I/51i-2fJm5xL.SL500.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Python programming ",
+      "description": "Python programming  is a high-level programming language known for its simplicity and readability. It is widely used for various applications, including web development, data analysis, artificial intelligence, and automation.  It emphasizes code readability and simplicity, making it accessible for newcomers. Python's extensive libraries and frameworks support tasks like web development, data analysis, artificial intelligence, and automation. ",
+      "price": 506,
+      "author": "Mark Adams",
+      "image": "https://m.media-amazon.com/images/I/41H8TW7YZIL.SL500.jpg"
+    },
+    {
+      "id": 27,
+      "title": " Python Programming for Beginners",
+      "description": " Python Programming for Beginners is a beginner-friendly guide that introduces the basics of Python programming, covering topics such as variables, data types, control structures, functions, and basic application development.Python Programming for Beginners is a beginner-friendly guide that introduces the fundamentals of Python programming. It covers basic syntax, data types, control structures, functions, and provides hands-on exercises to reinforce learning.",
+      "price": 506,
+      "author": "Anthony Adams",
+      "image": "https://play-lh.googleusercontent.com/g9vmEjzrWDfsAioVNP77awpeK6RBJL1eDTbSV0J1fvM46f8eV7VW3N4Y-t_QAM8YdKMjo4ir9MeO5g=w240-h345-rw"
+    },
+    {
+      "id": 28,
+      "title": " Python Crash Course",
+      "description": " Python Crash Course is a fast-paced book designed to provide an accelerated introduction to Python programming. It covers the basics of Python syntax, data structures, object-oriented programming, and popular libraries for various applications. It covers essential Python concepts, data manipulation, web development, game development, and more. With hands-on projects and exercises, it helps beginners quickly gain proficiency in Python programming.",
+      "price": 506,
+      "author": "Eric Matthes",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190709181948/Python-Crash-Course.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Head-First Python: A Brain-Friendly Guide (2nd Edition)",
+      "description": " is a beginner-friendly book that uses a unique and interactive approach to teach Python programming, covering core concepts, data manipulation, web scraping, and building Python applications. an interactive and visually engaging book that introduces Python programming. It covers core Python concepts, data structures, libraries, and practical projects. With its unique learning approach, it helps beginners grasp Python concepts effectively.",
+      "price": 506,
+      "author": "Paul Barry",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190709182648/Head-First-Python.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Learn Python the Hard Way: 3rd Edition",
+      "description": "Learn Python the Hard Way: 3rd Edition  is a popular book that takes a hands-on approach to teaching Python, providing exercises and challenges to reinforce learning, covering fundamental concepts and coding practices.a book that teaches Python through a practical and exercise-based approach. It focuses on building coding skills through repetition and practice, helping learners gain a strong foundation in Python programming.",
+      "price": 506,
+      "author": "Zed A. Shaw",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190709182729/Learn-Python-the-Hard-Way.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Python Programming: An Introduction to Computer Science (3rd Edition)",
+      "description": "Python Programming: An Introduction to Computer Science (3rd Edition) is a textbook that introduces Python programming and computer science concepts, including algorithms, data structures, problem-solving, and programming techniques using Python as the primary language.Python programming is a versatile and beginner-friendly language used for a wide range of applications. It emphasizes code readability and simplicity, making it accessible for newcomers. Python is known for its extensive libraries and frameworks that support various domains like web development, data analysis, artificial intelligence, and automation.",
+      "price": 506,
+      "author": "John M. Zelle",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190709182756/Python-Programming.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Introduction to Machine Learning with Python",
+      "description": "Introduction to Machine Learning with Python is a book that provides an introductory guide to machine learning concepts and techniques, covering algorithms, data preprocessing, model evaluation, and practical implementation using Python programming.Introduction to Machine Learning with Python is a book that provides a beginner-friendly introduction to machine learning concepts and techniques using the Python programming language. It covers various algorithms and practical examples for building machine learning models.",
+      "price": 506,
+      "author": " Andreas Muller, Sarah Guido",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20190709182833/Introduction-to-Machine-Learning-with-Python.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Python for Data Analysis",
+      "description": "Python for Data Analysis  is a comprehensive book that focuses on using Python for data analysis tasks, covering topics such as data manipulation, data cleaning, exploratory data analysis, and visualization using popular Python libraries like pandas and matplotlib. It encompasses various techniques, such as data cleaning, visualization, statistical analysis, and machine learning, to extract valuable information and patterns from data sets.",
+      "price": 506,
+      "author": "Wes Mckinney",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51HuYEwAl2L.SX258_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Python Tricks: A Buffet of Awesome Python Features  ",
+      "description": "Python Tricks: A Buffet of Awesome Python Features is a book that showcases various tips, tricks, and lesser-known features of Python programming, helping developers write more efficient, concise, and expressive Python code. It covers advanced topics, code snippets, and practical examples to help Python developers improve their coding skills and productivity.  ",
+      "price": 506,
+      "author": "Dan Bader",
+      "image": "https://www.stxnext.com/hs-fs/hubfs/STX%20Next%202020/blog/images/Python-Tricks-cover.jpg?width=250&height=357&name=Python-Tricks-cover.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Elements of Programming Interviews in Python",
+      "description": "Elements of Programming Interviews in Python is a book that provides a comprehensive collection of programming interview questions and solutions, specifically tailored for Python programming, covering various data structures, algorithms, and problem-solving techniques. a comprehensive book that provides a collection of coding interview problems and solutions using Python. It helps readers prepare for technical interviews and enhances their problem-solving and coding skills.",
+      "price": 506,
+      "author": "Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash",
+      "image": "https://www.stxnext.com/hs-fs/hubfs/STX%20Next%202020/blog/images/Elements-of-Programming-Interviews-in-Python-cover.jpg?width=250&height=357&name=Elements-of-Programming-Interviews-in-Python-cover.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Data Structures  ",
+      "description": "Data Structures is a book that focuses on the fundamental concepts and implementation of various data structures, such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables, providing insights into their properties and applications. Examples include arrays, linked lists, stacks, queues, trees, and graphs, which enable efficient data manipulation and retrieval operations.  ",
+      "price": 506,
+      "author": "Seymour Lipschutz",
+      "image": "https://m.media-amazon.com/images/I/51gOcNM4yDL.SX366_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Data Structures  ",
+      "description": "Data Structures is a book that focuses on the fundamental concepts and implementation of various data structures, such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables, providing insights into their properties and applications.They include arrays, linked lists, stacks, queues, trees, and graphs, enabling effective manipulation, searching, and retrieval of information in computer programs and algorithms.  ",
+      "price": 506,
+      "author": "Seymour Lipschutz",
+      "image": "https://m.media-amazon.com/images/I/51gOcNM4yDL.SX366_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 38,
+      "title": "DATA STRUCTURES USING C",
+      "description": "DATA STRUCTURES USING C is a book that explores the implementation and usage of various data structures, such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables, specifically using the C programming language.It covers concepts like arrays, linked lists, stacks, queues, trees, and graphs, providing practical examples and exercises for hands-on learning.",
+      "price": 506,
+      "author": "Reema Thareja",
+      "image": "https://m.media-amazon.com/images/I/51mDmYHm31L.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Data Structures and Algorithms Made Easy",
+      "description": "Data Structures and Algorithms Made Easy  is a book that simplifies the understanding and implementation of data structures and algorithms, providing explanations, examples, and problem-solving techniques to enhance programming skills. It offers clear explanations, illustrations, and coding examples, making it accessible for beginners and a valuable resource for interview preparation.",
+      "price": 506,
+      "author": " Narasimha Karumanchi ",
+      "image": "https://m.media-amazon.com/images/I/51G3oVDp1FL.SX384_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Data Structures Using C and C++ ",
+      "description": "Data Structures Using C and C++ is a book that covers the implementation and usage of data structures, such as arrays, linked lists, stacks, queues, trees, graphs, and hash tables, using both the C and C++ programming languages.It covers arrays, linked lists, stacks, queues, trees, and graphs, providing practical examples and exercises for hands-on learning in both languages. ",
+      "price": 506,
+      "author": "Langsam / Augenstein / Tenenbaum ",
+      "image": "https://m.media-amazon.com/images/I/41SOdGypvIL.SX361_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Data Structures and Algorithms for Gate",
+      "description": "Data Structures and Algorithms for Gate is a book specifically designed to cover data structures and algorithms topics required for the GATE (Graduate Aptitude Test in Engineering) examination, providing relevant theory, solved examples, and practice questions.",
+      "price": 506,
+      "author": "Narasimha Karumanchi",
+      "image": "https://m.media-amazon.com/images/I/41iN73bFD0L.SX384_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 42,
+      "title": "JavaScript: The Good Parts",
+      "description": "JavaScript: The Good Parts is a book by Douglas Crockford that focuses on the best practices, effective techniques, and the most useful features of JavaScript for developing high-quality and maintainable code. It highlights the language's most powerful features and provides insights for writing high-quality and maintainable code.",
+      "price": 506,
+      "author": "Douglas Crockford",
+      "image": "https://m.media-amazon.com/images/I/51aS0su4SjL.SX388_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 43,
+      "title": "MASTERING HTML, CSS & Java Script Web Publishing",
+      "description": "MASTERING HTML, CSS & Java Script Web Publishing  is a comprehensive book that covers the essentials of HTML, CSS, and JavaScript for web development, providing in-depth knowledge and practical techniques for creating and publishing websites.It includes tasks such as designing web pages, writing content, optimizing for search engines, and deploying websites to web servers for online visibility and engagement.",
+      "price": 506,
+      "author": " Laura Lemay , Rafe Colburn, Jennifer Kyrnin ",
+      "image": "https://m.media-amazon.com/images/I/41t-pVrGX8L.SX379_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 44,
+      "title": "JAVASCRIPT THE DEFINITIVE GUIDE ",
+      "description": "JAVASCRIPT THE DEFINITIVE GUIDE is a comprehensive reference book that covers the JavaScript language in depth, including syntax, objects, functions, DOM manipulation, event handling, and advanced topics for JavaScript developers.It enables functionalities like form validation, DOM manipulation, event handling, and asynchronous programming, enhancing user experience on websites. ",
+      "price": 506,
+      "author": "David Flanagan ",
+      "image": "https://m.media-amazon.com/images/I/51fOFa903iL.SX388_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Head First JavaScript Programming",
+      "description": "Head First JavaScript Programming is a beginner-friendly book that takes a unique and interactive approach to teaching JavaScript, covering core concepts, DOM manipulation, event handling, and practical examples to reinforce learning.  a beginner-friendly book that uses a visual and interactive approach to teach JavaScript. It covers core concepts, DOM manipulation, Ajax, and introduces key JavaScript frameworks and libraries.",
+      "price": 506,
+      "author": "Eric Freeman and Elisabeth Robson",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Head-First-JavaScript-Programming-254x300.jpg"
+    },
+    {
+      "id": 46,
+      "title": " A Smarter Way to Learn JavaScript",
+      "description": " A Smarter Way to Learn JavaScript is a book that focuses on an interactive learning approach, providing exercises, quizzes, and step-by-step tutorials to help beginners grasp JavaScript concepts and enhance their coding skills. It includes exercises, quizzes, and projects to reinforce concepts and improve programming skills.",
+      "price": 506,
+      "author": "Mark Myers",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Smarter-Way-to-Learn-Javascript-212x300.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Eloquent JavaScript, 3rd Edition",
+      "description": "Eloquent JavaScript, 3rd Edition is a popular book that provides a comprehensive introduction to JavaScript programming, covering language fundamentals, programming techniques, and advanced concepts with practical examples and exercises. It explores language fundamentals, functional programming, DOM manipulation, and modern JavaScript techniques. It includes exercises and practical examples to enhance learning.",
+      "price": 506,
+      "author": "Marijin Haverbeke",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Eloquent-JavaScript-228x300.jpg"
+    },
+    {
+      "id": 48,
+      "title": "Learn JavaScript Visually ",
+      "description": "Learn JavaScript Visually  is a visually-oriented book that uses illustrations, diagrams, and visual explanations to teach JavaScript concepts, making it accessible and engaging for visual learners to understand and apply JavaScript programming.It provides a visual and intuitive approach for beginners to understand and learn JavaScript programming.",
+      "price": 506,
+      "author": "Ivelin Demirov",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Learn-Javascript-Visually-240x300.jpg"
+    },
+    {
+      "id": 49,
+      "title": " Effective JavaScript",
+      "description": " Effective JavaScriptis a book that offers best practices, tips, and techniques to write high-quality and efficient JavaScript code. It covers common pitfalls, advanced concepts, and patterns for effective JavaScript programming.It covers topics like object-oriented programming, functional programming, error handling, and performance optimization to enhance JavaScript development skills.",
+      "price": 506,
+      "author": " David Herman",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Effective-JavaScript-229x300.jpg"
+    },
+    {
+      "id": 50,
+      "title": "The Principles of Object-Oriented JavaScript",
+      "description": "The Principles of Object-Oriented JavaScript is a book that focuses on applying object-oriented programming principles in JavaScript. It covers topics such as encapsulation, inheritance, polymorphism, and design patterns in JavaScript development.It covers concepts like prototypes, constructors, inheritance, and encapsulation, enabling developers to write modular and reusable code using object-oriented programming principles in JavaScript.",
+      "price": 506,
+      "author": "Nicholas C. Zakas ",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Principles-of-Object-Oriented-JavaScript-227x300.jpg"
+    },
+    {
+      "id": 51,
+      "title": "Programming JavaScript Applications",
+      "description": "Programming JavaScript Applications  is a book that explores techniques and best practices for building robust and scalable JavaScript applications. It covers topics like modular architecture, design patterns, testing, and code organization for JavaScript application development.It explores topics such as modular design, architecture patterns, testing, and deployment strategies for creating robust and maintainable JavaScript applications.",
+      "price": 506,
+      "author": "Eric Elliott",
+      "image": "https://www.interviewbit.com/blog/wp-content/uploads/2022/01/Programming-JavaScript-Applications-233x300.jpg"
+    },
+    {
+      "id": 52,
+      "title": "Programming ASP.NET Core ",
+      "description": "Programming ASP.NET Core is a book that covers the fundamentals of developing web applications using the ASP.NET Core framework. It explores topics such as routing, models, controllers, views, authentication, and deployment in ASP.NET Core. It covers topics such as MVC pattern, routing, data access, security, and deployment for developing modern and scalable web applications. ",
+      "price": 506,
+      "author": " Dino Esposito ",
+      "image": "https://m.media-amazon.com/images/I/41APdAQ2kwL.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 53,
+      "title": " Programming ASP .NET ",
+      "description": " Programming ASP .NET is a book that covers the essentials of developing web applications using the ASP.NET framework. It explores topics such as web forms, MVC architecture, data access, security, and deployment in ASP.NET. It explores topics such as server-side programming, web forms, data access, security, and other essential aspects of building dynamic and interactive web applications using ASP.NET. ",
+      "price": 506,
+      "author": "O'Reilly",
+      "image": "https://learning.oreilly.com/library/cover/0596001711/250w/"
+    },
+    {
+      "id": 54,
+      "title": "Systems Analysis and Design",
+      "description": "Systems Analysis and Design is a book that explores the methodologies and techniques for analyzing, designing, and implementing information systems, covering topics such as requirements gathering, modeling, system architecture, and project management.It focuses on understanding user requirements, modeling system components, and ensuring the effective and efficient operation of computer-based systems.",
+      "price": 506,
+      "author": " Goyal Arunesh",
+      "image": "https://rukminim1.flixcart.com/image/416/416/book/8/4/2/systems-analysis-and-design-original-imadf7vxgdqwerqz.jpeg?q=70"
+    },
+    {
+      "id": 55,
+      "title": "Systems Analysis and Design",
+      "description": "Systems Analysis and Design is a book that explores the methodologies and techniques for analyzing, designing, and implementing information systems, covering topics such as requirements gathering, modeling, system architecture, and project management. It encompasses requirements gathering, system modeling, feasibility studies, and testing to ensure effective and efficient information systems.",
+      "price": 506,
+      "author": " Goyal Arunesh",
+      "image": "https://rukminim1.flixcart.com/image/416/416/book/8/4/2/systems-analysis-and-design-original-imadf7vxgdqwerqz.jpeg?q=70"
+    },
+    {
+      "id": 56,
+      "title": "Systems Analysis and Design",
+      "description": "Systems Analysis and Design is a book that provides a comprehensive guide to the process of analyzing, designing, and implementing information systems, covering topics such as requirements gathering, system modeling, and system testing and maintenance. It involves identifying needs, modeling processes, and creating functional specifications to develop and implement effective IT solutions.",
+      "price": 506,
+      "author": "Alan Dennis, Barbara Wixom, Roberta M. Roth",
+      "image": "https://m.media-amazon.com/images/I/41vkCPdANdL.SL500.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Systems Analysis and Design",
+      "description": "Systems Analysis and Design is a book that introduces the principles and methodologies for analyzing, designing, and implementing information systems, covering topics such as requirements gathering, system modeling, and system implementation and maintenance.It involves requirements gathering, system modeling, and iterative development to create effective and efficient solutions.",
+      "price": 506,
+      "author": " Alan Dennis, Barbara Wixom, David Tegarden",
+      "image": "https://m.media-amazon.com/images/I/51ZDsxAIa4L.SL500.jpg"
+    },
+    {
+      "id": 58,
+      "title": "Modern Systems Analysis and Design",
+      "description": "Modern Systems Analysis and Design is a book that focuses on the latest methodologies and techniques for analyzing, designing, and implementing information systems, covering topics such as agile development, user-centered design, and system implementation strategies.It emphasizes agile methodologies, user-centered design, and the integration of emerging technologies for developing modern information systems.",
+      "price": 506,
+      "author": "Joseph Valacich, Joey George, Jeffrey Hoffer",
+      "image": "https://m.media-amazon.com/images/I/41lkju1gnIL.SL500.jpg"
+    },
+    {
+      "id": 59,
+      "title": "Systems Analysis and Design",
+      "description": "Systems Analysis and Design is a comprehensive book that covers the process of analyzing, designing, and implementing information systems, including requirements gathering, system modeling, and system testing and maintenance.It involves gathering requirements, modeling system components, and ensuring efficient and effective functioning of computer-based systems in organizations.",
+      "price": 506,
+      "author": "Scott Tilley",
+      "image": "https://m.media-amazon.com/images/I/51giQxz4LKL.SL500.jpg"
+    },
+    {
+      "id": 60,
+      "title": "Systems Engineering And Analysis",
+      "description": "Systems Engineering And Analysis is a book that provides a comprehensive overview of systems engineering principles and techniques, covering topics such as system requirements, design, integration, verification, and project management.It involves requirements analysis, system modeling, and integration of various components to ensure optimal system performance and functionality.",
+      "price": 506,
+      "author": " W. J. Fabrycky, Wolter J. Fabrycky",
+      "image": "https://m.media-amazon.com/images/I/41cRtX6Zj1L.SL500.jpg"
+    },
+    {
+      "id": 61,
+      "title": "Database Management Systems (Dbms)",
+      "description": "Database Management Systems (Dbms) is a book that explores the principles, concepts, and practices of managing databases, including topics such as data modeling, relational database design, query optimization, and transaction management.They provide functionalities for storing, retrieving, and manipulating data, ensuring data integrity and security in various applications.",
+      "price": 506,
+      "author": " Rajiv Chopra ",
+      "image": "https://m.media-amazon.com/images/I/51ZN4jV6j9L.SY264_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 62,
+      "title": "Database Management Systems (SIE)",
+      "description": "Database Management Systems (SIE) is a book that provides a comprehensive introduction to database management systems, covering topics such as database design, SQL, normalization, indexing, transaction management, and database administration.They enable efficient organization, querying, and manipulation of data to support information management in organizations.",
+      "price": 506,
+      "author": "Ramon Mata-Toledo , Pauline Cushman, Debabrata Sahoo",
+      "image": "https://m.media-amazon.com/images/I/5139-QFXFlL.SY264_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 63,
+      "title": "MySQL and JSON: A Practical Programming Guide",
+      "description": "MySQL and JSON: A Practical Programming Guide is a book that focuses on utilizing JSON (JavaScript Object Notation) with MySQL database, covering topics such as storing, querying, and manipulating JSON data using MySQL and related programming techniques.It also has built-in support for working with JSON (JavaScript Object Notation), allowing storage and retrieval of JSON documents within the database.",
+      "price": 506,
+      "author": "David Stokes",
+      "image": "https://www.mysql.com/why-mysql/books/img/MySQL_and_JSON.jpg"
+    },
+    {
+      "id": 64,
+      "title": "MySQL Connector/Python Revealed",
+      "description": "MySQL Connector/Python Revealed is a book that delves into the MySQL Connector/Python library, providing insights and practical examples for using Python to connect, query, and interact with MySQL databases.MySQL Connector/Python library for interacting with MySQL databases in Python. It covers installation, connection, querying, and advanced features of the connector.",
+      "price": 506,
+      "author": "Jesper Wisborg Krogh",
+      "image": "https://www.mysql.com/why-mysql/books/img/MySQL_Connector_Python.jpg"
+    },
+    {
+      "id": 65,
+      "title": "Expert PHP and MySQL",
+      "description": "Expert PHP and MySQL is a book that explores advanced techniques and best practices for developing robust and scalable web applications using PHP and MySQL, covering topics such as security, performance optimization, and database integration.It covers topics like database design, performance optimization, security, and advanced MySQL features.",
+      "price": 506,
+      "author": "Andrew Curioso, Ronald Bradford, Patrick Galbraith",
+      "image": "https://www.mysql.com/why-mysql/books/img/expert_php_mysql.jpg"
+    },
+    {
+      "id": 66,
+      "title": " The Joy of PHP Programming",
+      "description": " The Joy of PHP Programming is a book that aims to provide an enjoyable and engaging introduction to PHP programming, covering fundamental concepts, web development techniques, and practical examples to foster a love for PHP programming. It covers fundamental concepts, web development techniques, and provides hands-on examples for beginners to enjoy learning PHP.",
+      "price": 506,
+      "author": " Alan Forbes",
+      "image": "https://cdn.hackr.io/uploads/posts/attachments/15701909123y9xhRgIzL.webp"
+    },
+    {
+      "id": 67,
+      "title": "PHP: A Beginner’s Guid",
+      "description": "PHP: A Beginner’s Guid is a beginner-friendly book that provides a comprehensive introduction to PHP programming, covering syntax, variables, control structures, functions, and basic web development concepts using PHP.It covers essential PHP concepts, syntax, web development techniques, and provides practical examples to help beginners get started with PHP programming.",
+      "price": 506,
+      "author": "Vikram Vaswani",
+      "image": "https://cdn.hackr.io/uploads/posts/attachments/1570190912DtiVR4rmkh.webp"
+    },
+    {
+      "id": 68,
+      "title": "Learning PHP, MySQL, JavaScript, & CSS",
+      "description": "Learning PHP, MySQL, JavaScript, & CSS is a comprehensive book that covers the essentials of web development, including PHP programming, MySQL database management, JavaScript for interactivity, and CSS for styling web pages. It provides hands-on examples and exercises to learn and integrate PHP, MySQL, JavaScript, and CSS effectively for building dynamic and interactive websites.",
+      "price": 506,
+      "author": "Robin Nixon",
+      "image": "https://cdn.hackr.io/uploads/posts/attachments/1570190912VXvdyQJnBF.webp"
+    },
+    {
+      "id": 69,
+      "title": "PHP and MySQL Web Development",
+      "description": "PHP and MySQL Web Development is a widely acclaimed book that focuses on building dynamic web applications using PHP programming language and MySQL database, covering concepts, techniques, and best practices for web development. It covers topics like database integration, user authentication, form processing, and other essential web development techniques using PHP and MySQL.",
+      "price": 506,
+      "author": "Laura Thompson and Luke Welling",
+      "image": "https://cdn.hackr.io/uploads/posts/attachments/15701909128FBxe6WkoR.webp"
+    },
+    {
+      "id": 70,
+      "title": " PHP & MySQL",
+      "description": " PHP & MySQL is a concise book that provides an introduction to PHP programming and MySQL database management, covering the basics of both technologies and how they work together for web development. PHP is a server-side scripting language, while MySQL is a popular database management system, enabling efficient data storage, retrieval, and manipulation in web applications.",
+      "price": 506,
+      "author": "Brett McLaughlin",
+      "image": "https://cdn.hackr.io/uploads/posts/attachments/1570190912Sik3Kz87JT.webp"
+    },
+    {
+      "id": 71,
+      "title": "EXCEL VBA",
+      "description": "EXCEL VBA is a book that focuses on using Visual Basic for Applications (VBA) programming language to automate tasks, create custom functions, and enhance data analysis and manipulation in Microsoft Excel.It enables customization and advanced manipulation of Excel spreadsheets through code.",
+      "price": 506,
+      "author": "Elite Tech Academy",
+      "image": "https://m.media-amazon.com/images/I/41S0hjfBS5L.SL500.jpg"
+    },
+    {
+      "id": 72,
+      "title": "VBA for Beginner",
+      "description": "VBA for Beginner is a beginner-friendly book that introduces the fundamentals of Visual Basic for Applications (VBA) programming in a step-by-step manner, covering topics such as variables, loops, conditional statements, and interacting with Excel.It covers topics like variables, loops, conditions, and provides practical examples for automating tasks in Microsoft Office applications like Excel, Word, and PowerPoint.",
+      "price": 506,
+      "author": "Nathan Metzler",
+      "image": "https://m.media-amazon.com/images/I/416+BSPUaxL.SL500.jpg"
+    },
+    {
+      "id": 73,
+      "title": "HTML & CSS",
+      "description": "HTML & CSS  is a book that provides a comprehensive introduction to HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets), covering the basics of web development and styling web pages.HTML provides the structure and content, while CSS is used for presentation and layout, enabling the design and display of visually appealing websites.",
+      "price": 506,
+      "author": " Thomas Powell ",
+      "image": "https://m.media-amazon.com/images/I/51HfkDbya7L.SX378_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 74,
+      "title": "Java: The Complete Reference, Tenth Edition",
+      "description": "Java: The Complete Reference, Tenth Edition is a comprehensive book that covers the Java programming language, including core concepts, object-oriented programming, data structures, Java libraries, and advanced topics for Java developers.a comprehensive book that serves as a reference guide for various programming languages, frameworks, or technologies, covering their features, syntax, and usage in detail.",
+      "price": 506,
+      "author": "  Herbert Schildt",
+      "image": "https://m.media-amazon.com/images/I/41a1R+vG-GL.SX258_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 75,
+      "title": "Schaum's Outline Of Operating Systems",
+      "description": "Schaum's Outline Of Operating Systems is a book that provides a comprehensive overview of operating systems, covering topics such as process management, memory management, file systems, device management, and operating system design principles. It covers topics such as process management, memory management, file systems, and device management in a concise manner.",
+      "price": 506,
+      "author": "J. Archer Harris  ",
+      "image": "https://m.media-amazon.com/images/I/51NsEt9gPjL.SY264_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 76,
+      "title": "Schaum's Outline Of Software Engineering",
+      "description": "Schaum's Outline Of Software Engineering  is a book that covers the principles and practices of software engineering, including software development methodologies, requirements engineering, software design, testing, and software project management. It covers topics like requirements engineering, software design, testing, project management, and quality assurance.",
+      "price": 506,
+      "author": " David A. Gustafson",
+      "image": "https://m.media-amazon.com/images/I/51T-8d6-5EL.SX362_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 77,
+      "title": "Artificial Intelligence",
+      "description": "Artificial Intelligence is a book that explores the principles, techniques, and applications of artificial intelligence, covering topics such as machine learning, natural language processing, computer vision, robotics, and intelligent systems.computer systems that can perform tasks that typically require human intelligence, such as problem-solving, learning, speech recognition, and decision-making, using techniques like machine learning and natural language processing.",
+      "price": 506,
+      "author": " Lavika Goel ",
+      "image": "https://m.media-amazon.com/images/I/41CdaZPrx5L.SX386_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 78,
+      "title": "Artificial Intelligence",
+      "description": "Artificial Intelligence is a book that provides a comprehensive overview of the field of artificial intelligence, covering topics such as machine learning, neural networks, natural language processing, expert systems, and AI applications.computer systems that can perform tasks that typically require human intelligence, such as problem-solving, learning, speech recognition, and decision-making, using techniques like machine learning and natural language processing.",
+      "price": 506,
+      "author": "Ela Kumar ",
+      "image": "https://m.media-amazon.com/images/I/413T1vGfxWL.SX329_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Schaum's Outline Of Computer Networking",
+      "description": "Schaum's Outline Of Computer Networking is a book that covers the fundamentals of computer networking, including network architecture, protocols, data communication, network security, and network troubleshooting techniques. It covers topics like network protocols, network architectures, data transmission, network security, and network management in a concise manner.",
+      "price": 506,
+      "author": "  Ed Tittel ",
+      "image": "https://m.media-amazon.com/images/I/51xKWqnkxnL.SX360_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 80,
+      "title": "Schaum's Outline Of Software Engineering",
+      "description": "Schaum's Outline Of Software Engineering  is a book that covers the principles and practices of software engineering, including software development methodologies, requirements engineering, software design, testing, and software project management. It covers topics like network protocols, network architectures, data transmission, network security, and network management in a concise manner.",
+      "price": 506,
+      "author": " David A. Gustafson",
+      "image": "https://m.media-amazon.com/images/I/51T-8d6-5EL.SY264_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 81,
+      "title": "Computer System Architecture",
+      "description": "Computer System Architecture  is a book that explores the design and organization of computer systems, covering topics such as CPU architecture, memory systems, I/O devices, instruction sets, and system performance evaluation.It focuses on optimizing performance, reliability, and scalability to meet the computational needs of modern computing applications.",
+      "price": 506,
+      "author": " Mano M Morris ",
+      "image": "https://m.media-amazon.com/images/I/51IKBI0rftL.SX361_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 83,
+      "title": "Programming with Java",
+      "description": "Programming with Java  is a book that provides an introduction to Java programming language, covering the fundamentals of Java syntax, object-oriented programming concepts, and practical examples to develop Java applications.It includes concepts like object-oriented programming, data structures, algorithms, GUI development, and database connectivity, enabling the creation of robust and versatile software solutions.",
+      "price": 506,
+      "author": "E Balagurusamy ",
+      "image": "https://m.media-amazon.com/images/I/41Fji-VVHYL.SX380_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 84,
+      "title": "Problem Solving in Data Structures and Algorithms using Java",
+      "description": "Problem Solving in Data Structures and Algorithms using Java  is a book that focuses on solving data structure and algorithm problems using the Java programming language, providing examples, explanations, and code implementations.It covers topics like arrays, linked lists, trees, sorting algorithms, and graph algorithms for effective problem-solving.",
+      "price": 506,
+      "author": "Hemant jain ",
+      "image": "https://m.media-amazon.com/images/I/41-ZWFmi8nL.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 85,
+      "title": "Database Management Systems",
+      "description": "Database Management Systems  is a book that covers the principles, concepts, and practices of managing databases, including topics such as data modeling, relational database design, query optimization, and transaction management.They provide functionalities for creating, querying, updating, and maintaining databases, ensuring efficient data storage and retrieval for various applications.",
+      "price": 506,
+      "author": "  P.S. Gill ",
+      "image": "https://m.media-amazon.com/images/I/51NSWEBFjzL.SX359_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 86,
+      "title": "Management Information System",
+      "description": "Management Information System  is a book that explores the use of information systems in organizations, covering topics such as system design, decision-making support, data management, and the impact of technology on business processes. They encompass collecting, storing, processing, and presenting data for effective planning, control, and decision-making at different managerial levels.",
+      "price": 506,
+      "author": "Laudon  ",
+      "image": "https://m.media-amazon.com/images/I/41ONkX1I-DL.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 87,
+      "title": "Distributed Database Management Systems",
+      "description": "Distributed Database Management Systems is a book that focuses on the design, implementation, and management of databases that are distributed across multiple nodes or locations, covering topics such as data fragmentation, replication, concurrency control, and query processing in distributed environments.They provide mechanisms for data partitioning, replication, and coordination, enabling efficient and reliable data storage and access in distributed environments.",
+      "price": 506,
+      "author": " Saeed K. Rahimi , Frank S. Haug ",
+      "image": "https://m.media-amazon.com/images/I/41GKIZtc9LL.SY264_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 88,
+      "title": "Beginning React",
+      "description": "Beginning React is a book that provides an introduction to React.js, covering the fundamentals of React components, state management, routing, and integrating React with other technologies to build modern web applications. It covers React's core concepts, component-based development, state management, and guides readers through building real-world React applications.",
+      "price": 506,
+      "author": " Greg Lim",
+      "image": "https://m.media-amazon.com/images/I/41iau0FNmNL.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 89,
+      "title": "Beginning React with Hooks",
+      "description": "Beginning React with Hooks is a book that introduces React.js with a focus on functional components and hooks, covering topics such as useState, useEffect, context, and building reusable UI components in React applications.It covers the basics of React development, state management, and demonstrates how to build interactive and dynamic web applications using React's latest features.",
+      "price": 506,
+      "author": "  Greg Lim",
+      "image": "https://m.media-amazon.com/images/I/413Qh+zV1QL.SX258_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 90,
+      "title": "Beginning Node.js, Express & MongoDB Development",
+      "description": "Beginning Node.js, Express & MongoDB Development is a book that provides an introduction to building web applications using Node.js, Express.js framework, and MongoDB database, covering topics such as server-side development, REST APIs, and database integration. web applications using Node.js, Express framework, and MongoDB database. It covers server-side development, routing, data storage, and API integration.",
+      "price": 506,
+      "author": " Greg Lim ",
+      "image": "https://m.media-amazon.com/images/I/418H3vYA2tL.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 91,
+      "title": "Beginning MERN Stack Development",
+      "description": "Beginning MERN Stack Development is a book that introduces the MERN (MongoDB, Express.js, React.js, Node.js) stack for building web applications, covering topics such as backend and frontend development, database integration, and full-stack application deployment. It covers front-end and back-end development, database integration, and deployment using the MERN stack.",
+      "price": 506,
+      "author": " Greg Lim ",
+      "image": "https://m.media-amazon.com/images/I/41WUWk8D5YL.SX404_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 92,
+      "title": "Full-Stack React Projects",
+      "description": "Full-Stack React Projects is a book that provides hands-on projects to build full-stack web applications using React.js, covering topics such as server-side development with Node.js, database integration, and deploying applications to production.It covers front-end development, back-end integration, and showcases multiple projects to enhance practical skills.",
+      "price": 506,
+      "author": "Shama Hoque  ",
+      "image": "https://m.media-amazon.com/images/I/51BqNmSO6uL.SX404_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 93,
+      "title": "Pro MERN Stack",
+      "description": "Pro MERN Stackis a book that dives deep into building full-stack web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack, covering advanced topics such as authentication, deployment, performance optimization, and scalable architecture.It covers advanced topics like authentication, performance optimization, and deployment strategies.",
+      "price": 506,
+      "author": " Vasan Subramanian",
+      "image": "https://m.media-amazon.com/images/I/41bCSpeERKL.SY264_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 94,
+      "title": "ReactJS for Jobseekers",
+      "description": "ReactJS for Jobseekers  is a book that focuses on teaching React.js specifically for job seekers, covering practical examples, interview preparation, and tips for leveraging React.js skills in the job market. It covers essential concepts, project-based learning, and tips for showcasing React skills in job applications and interviews.",
+      "price": 506,
+      "author": " Qaifi Khan",
+      "image": "https://m.media-amazon.com/images/I/41Tpc+IjCcL.SX258_BO1,204,203,200.jpg"
+    },
+    {
+      "id": 95,
+      "title": "Node.js Design Patterns",
+      "description": "Node.js Design Patterns  is a book that explores various design patterns and best practices for building scalable and maintainable applications using Node.js, covering topics such as asynchronous programming, modularization, and error handling  It covers architectural patterns, asynchronous programming, and advanced Node.js concepts.",
+      "price": 506,
+      "author": "Mario Casciaro, Luciano Mammino  ",
+      "image": "https://m.media-amazon.com/images/I/519c6woRbpL.SX198_BO1,204,203,200_QL40_FMwebp.jpg"
+    },
+    {
+      "id": 96,
+      "title": "Java The Complete Core Reference , 11th Edition",
+      "description": "Java The Complete Core Reference , 11th Edition is a comprehensive book that covers the core concepts of Java programming language, including syntax, object-oriented programming, data structures, and advanced features of Java SE 11.  It provides in-depth explanations, examples, and best practices for Java development.",
+      "price": 506,
+      "author": "Mr Kotiyana",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41iGBjmHVrL.jpg"
+    },
+    {
+      "title": "Finance Management ",
+      "description": "Finance Management is a book that provides an overview of financial management principles and practices, covering topics such as financial analysis, budgeting, investment management, risk assessment, and financial decision-making in organizations.It includes activities such as budgeting, financial analysis, investment decision-making, risk management, and financial reporting. ",
+      "price": 506,
+      "author": "Mr and Mrs Dr. Choudhary ",
+      "image": "https://m.media-amazon.com/images/I/81RYgEp3geL.jpg",
+      "id": 99
+    },
+    {
+      "title": "vikas",
+      "author": "vikas",
+      "image": "data:image/jpeg;base64,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",
+      "id": 985686
+    },
+    {
+      "title": "Nitish",
+      "author": "Nitish",
+      "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9va3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+      "id": 985687
+    }
+  ]
+}
